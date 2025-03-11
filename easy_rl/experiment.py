@@ -5,7 +5,6 @@ LastEditors: MingChen
 LastEditTime: 2025-03-11 14:22:04
 """
 import gym  # 导入 Gym 的 Python 接口环境包
-import numpy as np  # 导入 numpy 包
 
 
 env = gym.make("CartPole-v0", render_mode="rgb_array")  # 构建实验环境
